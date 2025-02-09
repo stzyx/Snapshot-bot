@@ -1,0 +1,3 @@
+discord.py==2.4.0
+fonttools==4.55.3
+pillow==11.0.0
