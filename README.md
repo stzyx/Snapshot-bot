@@ -1,7 +1,7 @@
 # Snapshot bot
  Source code for generating fake discord message screenshots using pillow and discord.py
 
-# Config.py
+### Config.py
 ```py
 # Bot Configuration
 is_a_self_bot = False
