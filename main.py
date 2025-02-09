@@ -222,10 +222,10 @@ async def on_message(message: discord.Message):
         final_image.save("img.png")
         file = discord.File("img.png")
         if is_a_self_bot:
-            await message.reply(f"Snapshot by *{message.author.display_name or message.author.name}* ({message.author.name})", file=file)
+            await message.reply(f"Snapshot by **{message.author.display_name or message.author.name}** ({message.author.name})", file=file)
         else:
             embed = discord.Embed(
-                description=f"Snapshot by *{message.author.display_name or message.author.name}* ({message.author.name})",
+                description=f"Snapshot by **{message.author.display_name or message.author.name}** ({message.author.name})",
                 color=discord.Color.blurple()
             )
             embed.set_image(url="attachment://img.png")
