@@ -11,7 +11,10 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import textwrap
 from fontTools.ttLib import TTFont
 
-bot = discord.Client()
+if is_a_self_bot:
+    bot = discord.Client()
+else:
+    bot = discord.Client(intents=discord.Intents.all())
 
 @bot.event
 async def on_ready():
@@ -228,8 +231,9 @@ async def on_message(message: discord.Message):
             embed.set_image(url="attachment://img.png")
             await message.reply(embed=embed, file=file)
         try:
-            os.remove("pfp.png")
+            os.remove("profile_picture.png")
             os.remove("img.png")
+            os.remove("decoration.png")
             return
         except Exception as e:
             print(e)
