@@ -1,7 +1,7 @@
 ### Description: Configuration file for the bot ###
 
 # Bot Configuration
-is_a_self_bot = False # True if its a self bot
+is_a_self_bot = False 
 
 # Bot Settings
 default_background_color = "midnight" # midnight | white | dark

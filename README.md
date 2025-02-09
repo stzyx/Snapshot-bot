@@ -4,7 +4,7 @@
 ### Config.py
 ```py
 # Bot Configuration
-is_a_self_bot = False
+is_a_self_bot = False # Change this to True if you are using a self bot
 
 # Bot Settings
 default_background_color = "midnight" # midnight | white | dark
