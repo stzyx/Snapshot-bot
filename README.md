@@ -23,6 +23,6 @@ snap_command = prefix + "snap"
 # Bot Token
 BOT_TOKEN = ""
 ```
-
+**IMPORTANT: **unzip `font.zip` before running the bot.
 ## Usage
 ![image](https://i.postimg.cc/tCdSzbmv/image.png)
