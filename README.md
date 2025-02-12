@@ -25,4 +25,4 @@ BOT_TOKEN = ""
 ```
 
 ## Usage
-![image](https://i.ibb.co/B5rNc9Jq/image.png)
+![image](https://i.postimg.cc/tCdSzbmv/image.png)
