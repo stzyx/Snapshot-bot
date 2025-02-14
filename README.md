@@ -34,7 +34,7 @@ cd SnapshotBot
 - `v!help` - Show help message
 - `v!activate` - Activate the bot
 - `v!deactivate` - Deactivate the bot
-- `v!snap <message_link>` - Generate screenshot from message link
+- `v!snap @user <message>` - Generate screenshot from text and user mention
 - `v!bg <theme>` - Change background theme (midnight/white/dark)
 
  `You can change the prefix(v!) in config.py`
