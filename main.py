@@ -233,7 +233,10 @@ async def on_message(message: discord.Message):
         try:
             os.remove("profile_picture.png")
             os.remove("img.png")
-            os.remove("decoration.png")
+            try:
+                os.remove("decoration.png")
+            except:
+                pass
             return
         except Exception as e:
             print(e)
