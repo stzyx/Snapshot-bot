@@ -18,4 +18,4 @@ background_command = prefix + "bg"
 snap_command = prefix + "snap"
 
 # Bot Token
-BOT_TOKEN = ""
+BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"

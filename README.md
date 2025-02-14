@@ -1,6 +1,43 @@
 # Snapshot bot
- Source code for generating fake discord message screenshots using pillow and discord.py
+Source code for generating fake discord message screenshots using pillow and discord.py
 
+## Setup
+### Cloning the source
+```sh
+git clone https://github.com/stzyx/SnapshotBot
+cd SnapshotBot
+```
+
+### Requirements
+- Python 3.8+
+- Packages:
+  ```sh
+  python -m pip install -r requirements.txt
+  ```
+
+## Running the Bot
+1. Extract font files:
+   ```sh
+   unzip font.zip
+   ```
+   **IMPORTANT:** unzip `font.zip` before running the bot.
+2. Configure `config.py` with your bot token
+3. Run the bot:
+   ```sh
+   python bot.py
+   ```
+   or
+   ```sh
+   python3 bot.py
+   ```
+## Commands
+- `v!help` - Show help message
+- `v!activate` - Activate the bot
+- `v!deactivate` - Deactivate the bot
+- `v!snap <message_link>` - Generate screenshot from message link
+- `v!bg <theme>` - Change background theme (midnight/white/dark)
+
+ `You can change the prefix(v!) in config.py`
 ### Config.py
 ```py
 # Bot Configuration
@@ -21,8 +58,9 @@ background_command = prefix + "bg"
 snap_command = prefix + "snap"
 
 # Bot Token
-BOT_TOKEN = ""
+BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
 ```
-**IMPORTANT:** unzip `font.zip` before running the bot.
+
 ## Usage
 ![image](https://i.postimg.cc/tCdSzbmv/image.png)
+
